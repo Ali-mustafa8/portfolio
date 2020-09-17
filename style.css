@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style:none;
+}
+html{
+  scroll-behavior: smooth;
+}
+header{
+  display: flex;
+  width: 100%;
+
+  
+}
+.logo,.nav-links{
+  display: flex;
+
+
+}
+nav{
+  flex: 1;
+
+}
+.logo{
+  flex: 1;
+
+}
+.cord{
+  flex: 1;
+
+}
+.nav-links{
+  justify-content: space-around;
+  margin-right: 200px;
+  margin-top:20px;
+  
+}
+.nav-links>li{
+  list-style: none;
+
+
+}
+.nav-link{
+  font-size:18px;
+  padding:0px 30px;
+  color: black;
+
+}
+section{
+  display: flex;
+  overflow: hidden;
+}
+.section1{
+  width:65%;
+  background-color:white;
+  height:100vh;
+  
+
+}
+.section2{
+  width:35%;
+  background-color:#f3a933;
+  height:100vh;
+  opacity:0.8;
+
+}
+.vertical-line{
+  width:6px;
+  height:230px;
+  background-color:#F9A826; 
+}
+.dev{
+  display: flex;
+  position: absolute;
+  top:30%;
+  left:2%;
+}
+.content{
+  margin-left:30px;
+}
+.hello{
+  font-size:27px;
+  font-weight:600;
+}
+.web{
+  color: #F9A826;
+}
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  
+  transform-origin: 70% 70%;       
+  display: inline-block;
+  font-size:xx-large;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0deg) }
+   10% { transform: rotate(14.0deg) }  
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  
+  100% { transform: rotate( 0.0deg) }
+}
+
+ 
+.buttons{
+  margin-top: 60px;
+  margin-left:-40px;
+ 
+}
+.buttons .btn1{
+  border:none;
+  background: none;
+  background-color: black;
+  width:123px;
+  height: 32px;
+  border-radius:15px;
+  color:white;
+
+}
+
+#btn1{
+  margin-right:30px;
+  background-color: #f3a933;
+
+
+}
+.social{
+  margin-top:60px;
+  margin-left:-30px;
+
+}
+.social > i{
+  padding:0px 20px;
+  font-size:15px;
+}
+.imgb{
+  position: absolute;
+  right:16%;
+  top:10%;
+  width:400px;
+  height:400px;
+}
+.section3{
+  height:100%;
+  width:100%;
+
+}
+.section4{
+
+margin-top:90px;
+display: inline-block;
+font-family:sans-serif;
+width:100%;
+background-color:white;
+height:90vh;
+margin-left:310px;
+margin-top:100px;
+
+}
+h4{
+  font-family: sans-serif;
+}
+
+.bar{
+  display:inline-block;
+  border:2px solid rgb(249, 168, 38);
+  width: 500px;
+  overflow: hidden;
+  border-radius:3px;
+  background: #f3a933;
+  box-shadow: 0 0 8px #F9A826;
+
+}
+.bar span{
+  height:2px;
+  float: left;
+  background:black;
+
+}
+.HTML{
+  width: 90%;
+  animation: html 2s;
+  
+}
+.CSS{
+  width:60%;
+  animation: css 2s;
+
+}
+.JAVASCRIPT{
+  width:50%;
+  animation: javascript 2s;
+
+}
+.BOOSTRAPT{
+  width:85%;
+  animation: boostrapt 2s;
+
+}
+@keyframes html{
+  0%{
+    width: 0%;
+
+
+  }
+  100%{
+    width:90%;
+
+  }
+}
+@keyframes css{
+  0%{
+    width: 0%;
+
+
+  }
+  100%{
+    width:60%;
+
+  }
+}
+@keyframes javascript{
+  0%{
+    width: 0%;
+
+
+  }
+  100%{
+    width:50%;
+
+  }
+}
+@keyframes boostrapt{
+  0%{
+    width: 0%;
+
+
+  }
+  100%{
+    width:85%;
+
+  }
+}
+
+
+.section4 h3{
+  color: black;
+  margin-left:180px;
+
+
+}
+.section4  .line{
+  display:inline-block;
+  border:2px solid rgb(249, 168, 38);
+  width: 110px;
+  overflow: hidden;
+  background-color:#F9A826; 
+  margin-left:180px;
+  margin-bottom:90px;
+
+
+}
+.image{
+  width:400px;
+  height:200px;
+}
+
+.about{
+  display:inline-block;
+  width: 100%;
+}
+.about h3{
+  margin-left:470px;
+
+}
+.about img{
+  margin-left:300px;
+  width: 400px;
+}
+.about p{
+  margin-left:300px;
+  margin-top:20px;
+  font-weight: 600;
+
+
+}
+.about .line{
+  display:inline-block;
+  border:2px solid rgb(249, 168, 38);
+  width:80px;
+  overflow: hidden;
+  background-color:#F9A826; 
+  margin-left:470px;
+  margin-bottom:90px;
+}
+.section5{
+  display:flex;
+  width:100%;
+  height:100vh;
+}
+
+
+.part1{
+  height:390px;
+  width:410px;
+  background-color:#f3a933;
+  margin-left:200px;
+  margin-top:90px;
+  box-shadow: 0px 0px 3px #f3a933;
+
+
+}
+.part2{
+  margin-top:90px;
+
+  height:390px;
+  width:250px;
+  background-color: gray;
+  box-shadow: 0px 0px 3px gray;
+
+
+}
